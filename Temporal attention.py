@@ -1,4 +1,5 @@
 #Temporal Attention Mechanism
+#Can change temporal convilution with attention to improve performance at the cost of a bigger model
 class TemporalAttention(nn.Module):
     def __init__(self, num_channels, num_time_steps):
         super(TemporalAttention, self).__init__()
